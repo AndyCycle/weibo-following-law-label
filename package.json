@@ -1,0 +1,13 @@
+{
+  "name": "weibo-following-law-label",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "pretest": "npm run build",
+    "test": "node --test tests/core.test.mjs tests/app.test.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": { "jsdom": "^27.0.0" }
+}

@@ -1,0 +1,8 @@
+node_modules/
+.local/
+artifacts/
+verification/
+.secrets/
+.env
+.env.*
+*.log
